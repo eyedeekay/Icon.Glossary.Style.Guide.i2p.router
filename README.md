@@ -23,9 +23,15 @@ Creating this as I go, bear with me.
   * **Network testing:** ![Testing](console/info/network_status/network_testing.png)
   * **Network OK, but Firewalled:** ![Firewalled](console/info/network_status/network_firewalled.png)
   * **Network Warning:** ![Warning](console/info/network_status/network_warning.png)
-  * **NETWORK_VM:** ![Network_VM?](console/info/network_status/network_vm.png)
+  * **Network VM Communication:** ![Network_VM?](console/info/network_status/network_vm.png)
   * **Network error, Clock Skew Detected:** ![Clock Skew Detected](console/info/network_status/network_clockskew.png)
   * **Network Error:** ![Error](console/info/network_status/network_error.png)
   * **Accepting Tunnels:** ![Accepting Tunnels](console/info/network_status/accepting.png)
   * **Rejecting Tunnels:** ![Rejecting Tunnels](console/info/network_status/rejecting.png)
   * **Rejecting Tunnels in Hidden Mode:** ![Rejecting Tunnels](console/info/network_status/rejecting_hidden.png)
+
+### Application Notification Areas, Warnings and Errors
+
+  * **Error:** ![Critical](console/css/infoerror.png)
+  * **Warning:** ![Non-Critical](console/css/infowarn.png)
+

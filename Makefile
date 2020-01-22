@@ -9,14 +9,16 @@ copy:
 	#convert -resize 15x15 $(HOME)/Downloads/circlered.png console/local_down.png
 	#convert -resize 15x15 $(HOME)/Downloads/circlegren.png console/local_up.png
 	#convert -resize 15x15 $(HOME)/Downloads/circleyellow.png console/local_inprogress.png
-	convert -resize 15x15 $(HOME)/Downloads/check-circle.png console/info/network_status/network_ok.png
-	convert -resize 15x15 $(HOME)/Downloads/eye-off.png  console/info/network_status/network_hidden.png
-	convert -resize 15x15 $(HOME)/Downloads/shield.png  console/info/network_status/network_firewalled.png
-	convert -resize 15x15 $(HOME)/Downloads/warning-triangle.png  console/info/network_status/network_warning.png
-	convert -resize 15x15 $(HOME)/Downloads/loader.png  console/info/network_status/network_testing.png
-	convert -resize 15x15 $(HOME)/Downloads/error-triangle.png  console/info/network_status/network_error.png
-	convert -resize 15x15 $(HOME)/Downloads/clock.png  console/info/network_status/network_clockskew.png
-	convert -resize 15x15 $(HOME)/Downloads/airplay.png  console/info/network_status/network_vm.png
+	#convert -resize 15x15 $(HOME)/Downloads/check-circle.png console/info/network_status/network_ok.png
+	#convert -resize 15x15 $(HOME)/Downloads/eye-off.png  console/info/network_status/network_hidden.png
+	#convert -resize 15x15 $(HOME)/Downloads/shield.png  console/info/network_status/network_firewalled.png
+	#convert -resize 15x15 $(HOME)/Downloads/warning-triangle.png  console/info/network_status/network_warning.png
+	#convert -resize 15x15 $(HOME)/Downloads/loader.png  console/info/network_status/network_testing.png
+	#convert -resize 15x15 $(HOME)/Downloads/error-triangle.png  console/info/network_status/network_error.png
+	#convert -resize 15x15 $(HOME)/Downloads/clock.png  console/info/network_status/network_clockskew.png
+	#convert -resize 15x15 $(HOME)/Downloads/airplay.png  console/info/network_status/network_vm.png
+	#convert -resize 32x32 $(HOME)/Downloads/redbigtriangle.png  console/css/infowarn.png
+	convert -resize 32x32 $(HOME)/Downloads/yellowbigtriangle.png  console/css/infowarn.png
 
 
 install:
