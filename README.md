@@ -34,7 +34,7 @@ Creating this as I go, bear with me.
 
   * **Success:** ![Non-Critical](console/css/infohelp.png)
   * **Warning:** ![Non-Critical](console/css/infowarn.png)
-  * **Error:** ![Critical](console/css/infoerror.png)
+  * **Error:** ![Critical](console/info/errortriangle.png)
 
 
 
