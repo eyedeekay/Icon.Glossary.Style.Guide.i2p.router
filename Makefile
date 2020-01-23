@@ -17,8 +17,9 @@ copy:
 	#convert -resize 15x15 $(HOME)/Downloads/error-triangle.png  console/info/network_status/network_error.png
 	#convert -resize 15x15 $(HOME)/Downloads/clock.png  console/info/network_status/network_clockskew.png
 	#convert -resize 15x15 $(HOME)/Downloads/airplay.png  console/info/network_status/network_vm.png
-	#convert -resize 32x32 $(HOME)/Downloads/redbigtriangle.png  console/css/infowarn.png
-	convert -resize 32x32 $(HOME)/Downloads/yellowbigtriangle.png  console/css/infowarn.png
+	#convert -resize 32x32 $(HOME)/Downloads/redbigtriangle.png  console/info/errortriangle.png
+	#convert -resize 32x32 $(HOME)/Downloads/yellowbigtriangle.png  console/css/infowarn.png
+	#convert -resize 32x32 $(HOME)/Downloads/alert-triangle-green.png  console/css/infohelp.png
 
 
 install:
@@ -26,6 +27,7 @@ install:
 	cp -rv console/css/*.png $(HOME)/i2p/docs/themes/console/light/images/
 	cp -rv console/*.png $(HOME)/i2p/docs/themes/console/images/
 	cp -rv console/info/network_status/*.png $(HOME)/i2p/docs/themes/console/images/info/network_status/
+	cp -rv console/info/*.png $(HOME)/i2p/docs/themes/console/images/info/
 
 MTNHOME=$(HOME)/Workspace/desktop-Workspace/mtn
 
@@ -34,3 +36,5 @@ setup:
 	cp -rv console/css/*.png $(MTNHOME)/i2p.i2p/installer/resources/themes/console/light/images/
 	cp -rv console/*.png $(MTNHOME)/i2p.i2p/installer/resources/themes/console/images/
 	cp -rv console/info/network_status/*.png $(MTNHOME)/i2p.i2p/installer/resources/themes/console/images/info/network_status/
+	cp -rv console/info/*.png $(MTNHOME)/i2p.i2p/installer/resources/themes/console/images/info/
+

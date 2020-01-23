@@ -32,6 +32,9 @@ Creating this as I go, bear with me.
 
 ### Application Notification Areas, Warnings and Errors
 
-  * **Error:** ![Critical](console/css/infoerror.png)
+  * **Success:** ![Non-Critical](console/css/infohelp.png)
   * **Warning:** ![Non-Critical](console/css/infowarn.png)
+  * **Error:** ![Critical](console/css/infoerror.png)
+
+
 
