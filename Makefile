@@ -2,6 +2,9 @@
 usage:
 	@echo "make install to install icon upgrades in $(HOME)/i2p"
 
+wiki:
+	pandoc README.md -o iconguide.wiki
+
 copy:
 	cp $(HOME)/Downloads/greentunnel2.png console/css/console_status_running.png
 	cp $(HOME)/Downloads/redtunnel2.png console/css/console_status_stopped.png
