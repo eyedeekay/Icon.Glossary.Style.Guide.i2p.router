@@ -1,8 +1,15 @@
 # Icon.Glossary.Style.Guide.i2p.router
-WIP: Clear instructions about how to pick icons for use in the I2P Router from https://geti2p.net.
-Creating this as I go, bear with me.
+WIP: Clear instructions about how to interpret icons for use in the I2P Router
+from https://geti2p.net. Creating this as I go, bear with me.
 
 ## Notifications
+
+### Application Notification Areas, Warnings and Errors
+
+  * **News:** ![News](console/css/newsbullet_mini.png)
+  * **Success:** ![Success](console/css/infohelp.png)
+  * **Warning:** ![Non-Critical](console/css/infowarn.png)
+  * **Error:** ![Critical](console/info/errortriangle.png)
 
 ### "Traffic Lights" from I2PTunnel
 
@@ -10,7 +17,7 @@ Creating this as I go, bear with me.
   * **Starting:** ![Starting](console/css/console_status_starting.png)
   * **Stopped:** ![Stopped](console/css/console_status_stopped.png)
 
-### "Local Tunnels" from I2PTunnel
+### "Local Tunnels" from I2PTunnel in Sidebar
 
   * **Running:** ![Running](console/local_up.png)
   * **Starting:** ![Starting](console/local_inprogress.png)
@@ -31,13 +38,5 @@ Creating this as I go, bear with me.
   * **Rejecting Tunnels in Hidden Mode:** ![Rejecting Tunnels](console/info/network_status/rejecting_hidden.png)
 
 ### Application Icons
+
   * **Application does not provide an Icon:** ![OK](console/css/title_window.png)
-
-### Application Notification Areas, Warnings and Errors
-
-  * **Success:** ![Non-Critical](console/css/infohelp.png)
-  * **Warning:** ![Non-Critical](console/css/infowarn.png)
-  * **Error:** ![Critical](console/info/errortriangle.png)
-
-
-

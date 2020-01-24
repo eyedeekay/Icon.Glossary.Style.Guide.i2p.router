@@ -32,6 +32,7 @@ copy:
 	inkscape -z -e console/outbound.png -w 16 -h 16 $(HOME)/Downloads/arrow-up.svg
 	inkscape -z -e console/folder.png -w 16 -h 16 $(HOME)/Downloads/folder.svg
 	inkscape -z -e console/cursor_zoom.png -w 16 -h 16 $(HOME)/Downloads/zoom-in.svg
+	inkscape -z -e console/css/newsbullet_mini.png -w 16 -h 16 $(HOME)/Downloads/bell.svg
 
 
 
