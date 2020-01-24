@@ -30,6 +30,9 @@ Creating this as I go, bear with me.
   * **Rejecting Tunnels:** ![Rejecting Tunnels](console/info/network_status/rejecting.png)
   * **Rejecting Tunnels in Hidden Mode:** ![Rejecting Tunnels](console/info/network_status/rejecting_hidden.png)
 
+### Application Icons
+  * **Application does not provide an Icon:** ![OK](console/css/title_window.png)
+
 ### Application Notification Areas, Warnings and Errors
 
   * **Success:** ![Non-Critical](console/css/infohelp.png)
